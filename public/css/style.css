@@ -32,7 +32,7 @@ TABLE OF CONTENTS
   src: url("../fonts/vermin_vibes.ttf") format("opentype");
 }
 body {
-  font-family: 'Muli', sans-serif;
+  font-family: "Muli", sans-serif;
   color: #343434;
   font-weight: 400;
 }
@@ -41,8 +41,13 @@ body {
   padding: 100px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Josefin Sans', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Josefin Sans", sans-serif;
 }
 
 p {
@@ -114,15 +119,15 @@ p {
   border-radius: 50%;
   font-size: 16px;
   color: #fff;
-  background: #515A5F;
+  background: #515a5f;
   z-index: 99999999;
-  opacity: .5;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  opacity: 0.5;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   cursor: pointer;
 }
 .button-top:hover {
-  opacity: .8;
+  opacity: 0.8;
 }
 
 .button-show {
@@ -199,8 +204,8 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .nav-scroll .logo {
   color: #212121;
@@ -227,7 +232,7 @@ p {
   height: 100vh;
   width: 100%;
   position: relative;
-  background-image: url(../img/bg.jpg);
+  background-image: url(../img/laptop.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
@@ -274,7 +279,7 @@ p {
 
 .creative {
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
-          clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 92%, 0% 100%);
   height: 110vh !important;
   background-image: url(../img/bg2.jpg);
 }
@@ -303,7 +308,7 @@ p {
   width: 100%;
   height: 100%;
   background: #000;
-  opacity: .6;
+  opacity: 0.6;
   z-index: 1;
 }
 .sub-header .v-middle {
@@ -361,8 +366,8 @@ p {
   border-radius: 50%;
   font-size: 16px;
   margin: 0 5px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .hero .hero-content .social-icon span:hover {
   background: #d6b161;
@@ -590,7 +595,7 @@ p {
 }
 .clients .client-item p i {
   font-size: 10px;
-  opacity: .5;
+  opacity: 0.5;
 }
 .clients .client-item h6 {
   margin-bottom: 30px;
@@ -626,7 +631,8 @@ p {
   cursor: pointer;
   position: relative;
 }
-.portfolio .filtering span:after, .portfolio .filtering span:before {
+.portfolio .filtering span:after,
+.portfolio .filtering span:before {
   content: "";
   width: 1px;
   height: 100%;
@@ -635,8 +641,8 @@ p {
   left: 50%;
   top: 0;
   opacity: 0;
-  -webkit-transition: all .4s;
-  transition: all .4s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 .portfolio .filtering .active {
   color: #d6b161;
@@ -659,26 +665,27 @@ p {
 .portfolio .item-img:hover .item-img-overlay {
   opacity: 1;
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
-.portfolio .item-img:hover h6, .portfolio .item-img:hover .icons {
+.portfolio .item-img:hover h6,
+.portfolio .item-img:hover .icons {
   -webkit-transform: translateY(0);
-          transform: translateY(0);
+  transform: translateY(0);
 }
 .portfolio .item-img h6 {
   position: relative;
   color: #fff;
   margin-bottom: 30px;
   -webkit-transform: translateY(-15px);
-          transform: translateY(-15px);
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  transform: translateY(-15px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .portfolio .item-img .icons {
   -webkit-transform: translateY(15px);
-          transform: translateY(15px);
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  transform: translateY(15px);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .portfolio .item-img .icon {
   width: 35px;
@@ -689,8 +696,8 @@ p {
   color: #212121;
   font-weight: bold;
   margin: 0 2px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   cursor: pointer;
 }
 .portfolio .item-img .icon:hover {
@@ -706,19 +713,19 @@ p {
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
   opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
   z-index: 2;
   -webkit-transform: translateY(10px);
-          transform: translateY(10px);
+  transform: translateY(10px);
 }
 .portfolio .load {
   margin: 30px auto 0;
   border: 1px solid #eee;
   padding: 12px 30px;
   color: #555;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .portfolio .load:hover {
   background: #111;
@@ -769,8 +776,8 @@ p {
   background: #d6b161;
   border: 1px solid #d6b161;
   border-radius: 30px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .hire .content .botn:hover {
   background: transparent;
@@ -788,16 +795,16 @@ p {
 }
 .blog .item .img-post:hover img {
   -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
 }
 .blog .item .img-post img {
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .blog .item .cont-post {
   padding: 30px 15px;
   -webkit-box-shadow: 0px 5px 80px #f4f4f4;
-          box-shadow: 0px 5px 80px #f4f4f4;
+  box-shadow: 0px 5px 80px #f4f4f4;
 }
 .blog .item .cont-post .tag {
   margin-bottom: 30px;
@@ -814,8 +821,8 @@ p {
   border-radius: 30px;
   color: #fff;
   padding: 10px 25px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .blog .item .cont-post .botn:hover {
   background: transparent;
@@ -837,12 +844,12 @@ p {
 }
 .posts .item .content .post-img img {
   width: 100%;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .posts .item .content .post-img img:hover {
   -webkit-transform: scale(1.1, 1.1);
-          transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 .posts .item .content .post-info h5 {
   font-size: 20px;
@@ -882,8 +889,8 @@ p {
   text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .posts .item .content .more:hover {
   background: transparent;
@@ -900,8 +907,8 @@ p {
 }
 .posts .item .content .share .social {
   opacity: 0;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .posts .item .content .share .social-active {
   opacity: 1;
@@ -948,7 +955,8 @@ p {
 .posts .comm .comm-reply {
   margin-left: 70px;
 }
-.posts .lev-comm input, .posts .lev-comm textarea {
+.posts .lev-comm input,
+.posts .lev-comm textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #f7f7f7;
@@ -968,8 +976,8 @@ p {
   font-size: 14px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .posts .lev-comm input[type="submit"]:hover {
   background: transparent;
@@ -982,8 +990,8 @@ p {
   color: #888;
   letter-spacing: 1px;
   text-transform: uppercase;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .posts .numb span:hover {
   background: #d6b161;
@@ -1049,8 +1057,8 @@ p {
   font-size: 14px;
   color: #777;
   margin: 0 2px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .side-bar .widget .follow span:hover {
   border-color: #d6b161;
@@ -1103,8 +1111,8 @@ p {
   border: 1px solid #a7a7a7;
   color: #444;
   margin: 2px;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .side-bar .widget .tags span:hover {
   background: #d6b161;
@@ -1168,7 +1176,8 @@ p {
 .contact .form {
   padding-top: 50px;
 }
-.contact .form input, .contact .form textarea {
+.contact .form input,
+.contact .form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 30px;
@@ -1183,8 +1192,8 @@ p {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
 .contact .form input[type="submit"]:hover {
   background: transparent;
@@ -1241,7 +1250,8 @@ p {
     margin-top: 15px !important;
     border: none !important;
   }
-  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
     background: transparent !important;
   }
   .navbar-default .navbar-toggle .icon-bar {
