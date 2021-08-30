@@ -32,7 +32,7 @@ export default function Home() {
           href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
         />
         <link rel="stylesheet" href="css/style.css" />
-        <script src="js/html5shiv.min.js"></script>
+        {/* <script src="js/html5shiv.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
         <script
@@ -51,9 +51,9 @@ export default function Home() {
         <script src="js/particles.min.js"></script>
         <script src="js/app.js"></script>
         <script src="js/validator.js"></script>
-        <script src="js/custom.js"></script>
+        <script src="js/custom.js"></script> */}
       </Head>
-      <div className="loading">
+      {/* <div className="loading">
         <div className="load-circle"></div>
       </div>
 
@@ -61,7 +61,7 @@ export default function Home() {
         <span>
           <i className="fa fa-angle-up" aria-hidden="true"></i>
         </span>
-      </div>
+      </div> */}
 
       <nav className="navbar navbar-default">
         <div className="container">
