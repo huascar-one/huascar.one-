@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from "next/image";
-import Script from "next/script";
 
 export default function Home() {
   return (
@@ -33,7 +32,26 @@ export default function Home() {
           href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
         />
         <link rel="stylesheet" href="css/style.css" />
-        <Script src="js/html5shiv.min.js"></Script>
+        <script src="js/html5shiv.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></script>
+        <script
+          src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+          crossOrigin="anonymous"
+        ></script>
+        <script src="js/scrollIt.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.stellar.min.js"></script>
+        <script src="js/typed.js"></script>
+        <script src="js/jquery.waypoints.min.js"></script>
+        <script src="js/jquery.counterup.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/particles.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/validator.js"></script>
+        <script src="js/custom.js"></script>
       </Head>
       <div className="loading">
         <div className="load-circle"></div>
@@ -981,26 +999,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <Script src="https://code.jquery.com/jquery-3.0.0.min.js"></Script>
-      <Script src="https://code.jquery.com/jquery-migrate-3.0.0.min.js"></Script>
-      <Script
-        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
-        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
-        crossOrigin="anonymous"
-      ></Script>
-      <Script src="js/scrollIt.min.js"></Script>
-      <Script src="js/jquery.magnific-popup.min.js"></Script>
-      <Script src="js/owl.carousel.min.js"></Script>
-      <Script src="js/jquery.stellar.min.js"></Script>
-      <Script src="js/typed.js"></Script>
-      <Script src="js/jquery.waypoints.min.js"></Script>
-      <Script src="js/jquery.counterup.min.js"></Script>
-      <Script src="js/isotope.pkgd.min.js"></Script>
-      <Script src="js/particles.min.js"></Script>
-      <Script src="js/app.js"></Script>
-      <Script src="js/validator.js"></Script>
-      <Script src="js/custom.js"></Script>
     </>
   );
 }
